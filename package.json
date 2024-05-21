@@ -1,0 +1,42 @@
+{
+  "name": "booking-ios",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@lottiefiles/react-lottie-player": "^3.5.3",
+    "@nextui-org/react": "^2.2.9",
+    "antd": "^5.14.1",
+    "axios": "^1.6.7",
+    "flowbite": "^2.3.0",
+    "flowbite-react": "^0.7.2",
+    "framer-motion": "^11.0.8",
+    "js-cookie": "^3.0.5",
+    "next": "14.1.0",
+    "next-auth": "^4.24.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-html5-qrcode-reader": "^1.1.1",
+    "react-qr-code": "^2.0.12",
+    "socket.io": "^4.7.4",
+    "socket.io-client": "^4.7.4",
+    "sweetalert2": "^11.10.5",
+    "toastify-js": "^1.12.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "html5-qrcode": "^2.3.8",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  }
+}
