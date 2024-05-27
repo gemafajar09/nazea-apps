@@ -141,13 +141,12 @@ const Homecomponent = ({visible}) => {
                     <BannerS/>
                     :
                     <Carousel autoplay autoplaySpeed={3000} draggable={true}>
-                        {
-                            banner.map((val, i) => (
-                                <div key={i} className="rounded-md">
-                                <img className='rounded-md' src={`${process.env.NEXT_PUBLIC_IMAGE}/${val.gambar}`} alt='gambar'/>
+                                <div className="rounded-md">
+                                    <img className='rounded-md' src={`${process.env.NEXT_PUBLIC_IMAGE}/nazea_tumnail.png`} alt='gambar'/>
                                 </div>
-                            ))
-                        }
+                                <div className="rounded-md">
+                                    <img className='rounded-md' src={`${process.env.NEXT_PUBLIC_IMAGE}/nazea_tumnail_2.png`} alt='gambar'/>
+                                </div>
                     </Carousel>    
             }
 
