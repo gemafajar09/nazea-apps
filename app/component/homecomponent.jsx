@@ -142,10 +142,10 @@ const Homecomponent = ({visible}) => {
                     :
                     <Carousel autoplay autoplaySpeed={3000} draggable={true}>
                                 <div className="rounded-md">
-                                    <img className='rounded-md' src={`${process.env.NEXT_PUBLIC_IMAGE}/nazea_tumnail.png`} alt='gambar'/>
+                                    <img className='rounded-md' src={`/nazea_tumnail.png`} alt='gambar'/>
                                 </div>
                                 <div className="rounded-md">
-                                    <img className='rounded-md' src={`${process.env.NEXT_PUBLIC_IMAGE}/nazea_tumnail_2.png`} alt='gambar'/>
+                                    <img className='rounded-md' src={`/nazea_tumnail_2.png`} alt='gambar'/>
                                 </div>
                     </Carousel>    
             }
